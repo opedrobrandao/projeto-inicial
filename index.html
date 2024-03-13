@@ -21,11 +21,11 @@ A <!DOCTYPE html>declaração define que este documento
     <class="container">
       <header>
         <h1>Minha Página</h1>
-        <nav>
+        <nav class="menu">
           <ul>
-            <li><a href="./paginas/help.html">HELP</a></li>
-            <li><a href="./paginas/contact.html">CONTACT</a></li>
+            <li><a href="./paginas/help.html">HELP</a></li>            
             <li><a href="./paginas/about.html">ABOUT</a></li>
+            <li><a href="./paginas/contact.html">CONTACT</a></li>
           </ul>
         </nav>
       </header>
@@ -33,15 +33,45 @@ A <!DOCTYPE html>declaração define que este documento
       <hr />
 
       <section class="conteudo">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officiis illum quis voluptas. Aspernatur nisi commodi accusamus animi optio quos eaque tempore, perferendis error, cum eius assumenda amet, distinctio modi!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit odio iusto maiores cupiditate, provident ab repellendus praesentium corrupti nulla. Libero in qui mollitia suscipit laborum officiis esse dicta soluta debitis!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero totam magni dicta fugiat dignissimos debitis tempore pariatur delectus id, hic accusantium distinctio omnis et, nesciunt sit repellendus ex. Atque, quibusdam?
-        </p>
+        <div>
+          <h2>HELP</h2>
+          <p>
+            Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sit iste nostrum consequuntur saepe commodi provident, repellat exercitationem animi facilis nobis ad quis porro, voluptatem suscipit excepturi quia praesentium reprehenderit nesciunt cum voluptas asperiores dicta eos? Sunt fugit, accusantium ullam possimus quam, explicabo soluta voluptatibus ad, dignissimos ducimus nulla tenetur eaque cupiditate ut excepturi obcaecati accusamus rerum provident placeat incidunt. Nulla iste dicta fugit impedit accusamus ullam minima alias sunt tenetur aliquid nesciunt, quod numquam esse soluta, possimus aspernatur unde rem quis assumenda quibusdam ad maiores veniam? Molestias, quos quaerat! Hic maxime ut quod, accusantium recusandae ad ipsa voluptatum quaerat.
+          </p>
+          <a href="./paginas/help.html">Mais...</a>
+        </div>
+        <div>
+          <h2>ABOUT</h2>
+          <p>
+            About - Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam recusandae, natus nam, rem quidem tempore suscipit, delectus modi fuga ducimus distinctio ea nisi earum. Ab minima, assumenda, necessitatibus perferendis commodi quo repudiandae nostrum perspiciatis distinctio doloremque eaque ex laudantium. Exercitationem veritatis blanditiis odit hic sint nihil, amet voluptatibus voluptates quaerat doloremque numquam dignissimos corrupti inventore rerum ipsa quibusdam assumenda quae. Voluptatibus quas cupiditate porro aliquam veritatis? Rem repellat, delectus nesciunt deserunt dignissimos assumenda voluptas incidunt nobis minima! Tempore quae rerum eius ipsum vero fuga officiis voluptates, impedit obcaecati cumque qui repellat aspernatur laudantium iusto atque neque accusantium illum pariatur sapiente!
+          </p>
+          <a href="./paginas/about.html">Mais...</a>
+        </div>
+
+        <div id="contact">
+          <h2>CONTACT</h2>
+          <form>
+            <fieldset>
+              <legend>CUSTOMER DATA</legend>
+              <div>
+                <label for="">Nome:</label>
+                <input type="text" name="txtNm" id="idNm" placeholder="Digite seu nome aqui">
+              </div>
+              <div>
+                <label for="idEmail">Email:</label>
+                <input
+                  type="email"
+                  name="txtEmail"
+                  id="idEmail"
+                  placeholder="Digite seu email"
+                />
+              </div>
+              <div>
+                <button type="button">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
       </section>
       <footer class="rodape">
         <nav>
