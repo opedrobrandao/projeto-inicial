@@ -32,14 +32,32 @@
 /* a[href="http://www.google.com"] {color: red;} - Este seletor estiliza todos os links que possuem o atributo "href" com o valor "http://www.google.com". */
 /* input[type="text"] {color: red;} - Este seletor estiliza todos os inputs que possuem o atributo "type" com o valor "text". */
 /* Exemplo de reset de estilos */
-*{
+/*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*
 /* Exemplo de reset de estilos */
+
 #container{
-    background-color: #a1a1a1;
-    width: 75%;
-    margin: 0 auto;
+    background-color: rgba(226, 220, 126, 0.555);
+    color: black;
+}
+
+.cabecalho{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-image: url("../img/img-01-banner-1280.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu ul li{
+    display: inline;
+    margin-right: 10px;
+    background-color: antiquewhite;
 }
